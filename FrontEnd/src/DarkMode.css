@@ -1,0 +1,416 @@
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+#Header{
+    background-color: #202020;
+}
+.sidebar_toggle_btn{
+    color: white;
+}
+.searchbartextform{
+    background: #000;
+    border: 2px solid black;
+}
+.searchbartextform{
+    color: white;
+}
+.scrollbox{
+  background-color: #181818;
+}
+.left_sidebar{
+  background-color: #202020;
+  color: white;
+}
+.left_menu_1{
+  color: white;
+}
+.left_menu_1:hover{
+  color: white;
+}
+.history_remove_symbol{
+  color: white;
+  cursor: pointer;
+}
+.homepage_selected{
+  background: #363636;
+}
+.liked_video_selected{
+  background: #363636;
+}
+.history_selected{
+  background: #363636;
+}
+.RegisterPage{
+  color: white;
+}
+.AdminLoginPage{
+  color: white;
+}
+.LoginPage{
+  color: white;
+}
+.UploadVideo{
+  color: white;
+}
+.homepage_video_title{
+  color: white;
+}
+.homepage_video_creator{
+  color: rgb(167, 167, 167);
+  white-space: nowrap; 
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
+.my_subscribers{
+  white-space: nowrap; 
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
+.homepage_video_upload_date{
+  color: rgb(167, 167, 167);
+}
+.single_video_creator{
+  color: white;
+}
+.single_video_creator:hover{
+  color: white;
+}
+.single_video_channel_subscribers{
+  color: rgb(167, 167, 167);
+}
+.single_video_comment{
+  color: white;
+}
+.single_video_comment_channel{
+  color: white;
+}
+.single_video_comment_date{
+  color: rgb(167, 167, 167);
+}
+.total_comment{
+  color: white;
+}
+.single_video_title{
+  color: white;
+}
+.like_yes{
+  color: white;
+}
+.like_no{
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+.dislike_yes{
+  color: white;
+}
+.dislike_no{
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+.share_btn_text{
+  color: white;
+}
+.share_btn_text:hover{
+  color: white;
+}
+.share_btn{
+  color: white;
+}
+.notification_bell{
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+.upload_video_camera{
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+.share_btn{
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+.heading{
+  color: rgb(165, 165, 165);
+}
+.single_video_related_title{
+  color: white;
+}
+.single_video_related_creator{
+  color: rgb(167, 167, 167);
+  white-space: nowrap; 
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
+.single_video_related_date{
+  color: rgb(167, 167, 167);
+}
+.loading_spinner{
+  color: white;
+}
+.single_video_description{
+  color: rgb(206, 206, 206);
+}
+.single_video_page{
+  background-color: #181818;
+}
+.EditChannel{
+  background-color: #181818;
+  color: white;
+}
+.channel_name{
+  color: white;
+}
+.channel_subscriber{
+  color: rgb(206, 206, 206);
+}
+.channel_video_title{
+  color: white;
+  white-space: nowrap; 
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
+.channel_video_date_views{
+  color: rgb(206, 206, 206);
+}
+.searchbar_video_details{
+  color: rgb(173, 173, 173);
+}
+.search_video_title{
+  color: white;
+}
+.br_after_119px{
+  display: none;
+}
+.video_title{
+  white-space: nowrap; 
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
+.dropdown_channel_info{
+  white-space: nowrap; 
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
+.single_video_related_title{
+  white-space: nowrap; 
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
+.search_video_description{
+  white-space: nowrap; 
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
+.search_video_title{
+  white-space: nowrap; 
+  width: 100%; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
+.EditChannel{
+  overflow-x: hidden;
+  overflow-y: scroll;
+  height: 855px;
+}
+.toggle_searchbar{
+  display: none;
+}
+.search_magnifying_glass{
+    display: none;
+}
+.search_microphone{
+  display: none;
+}
+.left_sidebar_after_lg {
+  display: none;
+}
+.scrollbox {
+  overflow-y: scroll;
+  height: 858px;
+}
+.single_video_page {
+  overflow-y: scroll;
+  height: 855px;
+  overflow-x: hidden;
+}
+@media (min-width: 1200px) {
+  .search_bar{
+    width: 60%;
+  }
+}
+@media (max-width: 1199px) {
+  .search_bar{
+    width: 58%;
+  }
+  .br_after_119px{
+    display: block;
+  }
+}
+@media (max-width: 960px) {
+  .search_bar{
+    width: 57%;
+  }
+}
+@media (max-width: 931px) {
+  .search_bar{
+    width: 56%;
+  }
+}
+@media (max-width: 905px) {
+  .search_bar{
+    width: 55%;
+  }
+}
+@media (max-width: 881px) {
+  .search_bar{
+    width: 54%;
+  }
+}
+@media (max-width: 858px) {
+  .search_bar{
+    width: 53%;
+  }
+}
+@media (max-width: 836px) {
+  .search_bar{
+    width: 52%;
+  }
+}
+@media (max-width: 815px) {
+  .search_bar{
+    width: 51%;
+  }
+}
+@media (max-width: 796px) {
+  .search_bar{
+    width: 49%;
+  }
+}
+@media (max-width: 767px) {
+  .search_bar{
+    width: 40%;
+  }
+}
+@media (max-width: 685px) {
+  .sign_up{
+    display: none;
+  }
+}
+@media (max-width: 631px) {
+  .search_bar{
+    width: 39%;
+  }
+}
+@media (max-width: 621px) {
+  .search_bar{
+    width: 37%;
+  }
+}
+@media (max-width: 598px) {
+  .search_bar{
+    width: 35%;
+  }
+}
+@media (max-width: 579px) {
+  .search_bar{
+    width: 34%;
+  }
+}
+@media (max-width: 575px) {
+  .search_bar_and_btn{
+    display: none;
+  }
+  .sign_up{
+    display: inline;
+  }
+  .search_magnifying_glass{
+    display: inline;
+  }
+  .toggle_searchbar{
+    display: block;
+  }
+  .search_microphone{
+    display: inline;
+  }
+}
+@media (min-width: 1400px) {
+  .scrollbox_left:hover {
+      overflow-y: scroll;
+      height: 854px;
+  }
+}
+@media (max-width: 1400px) {
+  .left_sidebar_before_lg {
+      display: none;
+  }
+
+  .left_sidebar_after_lg {
+      display: block;
+  }
+}
+.searchbar_video_image{
+  height: 200px;
+}
+@media (max-width: 767px) {
+  .left_sidebar {
+      display: none;
+  }
+  .searchbar_video_image{
+    height: 150px;
+  }
+}
+@media (min-width: 576px) {
+  .video_thumbnail {
+      height: 200px;
+      width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .video_thumbnail {
+      height: 200px;
+      width: 100%;
+  }
+}
+@media (min-width: 1600px) {
+  .set_container {
+      padding-left: 7%;
+      padding-right: 7%;
+  }
+}
+@media (max-width: 1600px) {
+  .set_container {
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+}
+@media (min-width: 576px) {
+  .like_dislike_share_btn_data {
+      float: right;
+  }
+}
+@media (max-width: 991px) {
+  .comment {
+      display: none;
+  }  
+  .br_after_119px{
+    display: none;
+  }
+}
+
+
+
+
